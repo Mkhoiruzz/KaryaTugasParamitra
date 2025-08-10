@@ -1,0 +1,47 @@
+:root {
+  --brand-primary: #0d6efd;
+  --brand-danger: #c32020;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', sans-serif;
+  color: #1f2937;
+}
+
+.fw-extrabold { font-weight: 800; }
+.lh-tight { line-height: 1.1; }
+
+.eyebrow { letter-spacing: .08em; }
+.section-title { font-weight: 800; font-size: clamp(1.75rem, 1.2rem + 1.5vw, 2.25rem); }
+
+/* Hero */
+.hero-section { padding-top: 6rem; }
+.hero-bg {
+  background: radial-gradient(1200px 600px at -5% -10%, rgba(13,110,253,.15), transparent 60%),
+              radial-gradient(900px 500px at 110% 0%, rgba(195,32,32,.12), transparent 60%);
+}
+.hero-illustration { background: url('https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat; }
+
+/* Icon circle */
+.icon-circle { width: 3rem; height: 3rem; border-radius: 50%; display: grid; place-items: center; font-size: 1.25rem; }
+
+/* CTA */
+.cta-banner { background: linear-gradient(135deg, var(--brand-primary), #6ea8fe); color: #fff; }
+
+/* Back to top */
+.back-to-top {
+  position: fixed; right: 1rem; bottom: 1rem; z-index: 1050; display: none;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+}
+
+/* Utilities */
+.object-fit-cover { object-fit: cover; }
+
+/* Cards */
+.card { border: 1px solid rgba(0,0,0,.06); }
+
+/* Navbar override */
+.navbar .nav-link { color: #374151; }
+.navbar .nav-link:hover, .navbar .nav-link:focus { color: var(--brand-primary); }
