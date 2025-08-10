@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="id" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Website modern berbasis Bootstrap" />
+    <meta name="theme-color" content="#0d6efd" />
+    <title>Bootstrap Starter - Modern Landing</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="/workspace/assets/css/styles.css" rel="stylesheet" />
+  </head>
+  <body id="home" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-smooth-scroll="true" tabindex="0">
+
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark bg-body-tertiary fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">
+          <i class="fa-solid fa-cubes me-2"></i>BrandSite
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#features">Fitur</a></li>
+            <li class="nav-item"><a class="nav-link" href="#work">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+          </ul>
+          <div class="d-flex ms-lg-3">
+            <button id="themeToggle" class="btn btn-outline-primary btn-sm" type="button" aria-label="Toggle theme">
+              <i class="fa-solid fa-moon me-2"></i><span>Gelap</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero-section d-flex align-items-center">
+      <div class="container py-5">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-7">
+            <h1 class="display-4 fw-bold mb-3">Bangun Website Modern Lebih Cepat</h1>
+            <p class="lead text-secondary mb-4">Template responsif berbasis Bootstrap 5, siap dikembangkan untuk proyek bisnis, portfolio, maupun landing page produk Anda.</p>
+            <div class="d-flex gap-2 flex-wrap">
+              <a href="#features" class="btn btn-primary btn-lg px-4"><i class="fa-solid fa-rocket me-2"></i>Mulai Jelajah</a>
+              <a href="#contact" class="btn btn-outline-secondary btn-lg px-4"><i class="fa-solid fa-envelope me-2"></i>Hubungi Kami</a>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="hero-card card border-0 shadow-lg">
+              <div class="card-body p-4">
+                <h5 class="card-title fw-semibold mb-3">Apa yang Anda dapatkan?</h5>
+                <ul class="list-unstyled vstack gap-3 mb-0">
+                  <li class="d-flex align-items-start gap-3"><i class="fa-solid fa-bolt text-primary fs-4"></i><span>Desain modern dan clean dengan komponen siap pakai.</span></li>
+                  <li class="d-flex align-items-start gap-3"><i class="fa-solid fa-mobile-screen text-primary fs-4"></i><span>Responsif di semua ukuran layar.</span></li>
+                  <li class="d-flex align-items-start gap-3"><i class="fa-solid fa-wand-magic-sparkles text-primary fs-4"></i><span>Animasi halus dan interaksi yang menyenangkan.</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="features" class="section-padding bg-body">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-8">
+            <h2 class="h1 fw-bold">Fitur Unggulan</h2>
+            <p class="text-secondary">Kumpulan komponen untuk mempercepat pengembangan antarmuka Anda.</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100 feature-card shadow-sm">
+              <div class="card-body">
+                <div class="icon-wrap bg-primary-subtle text-primary mb-3"><i class="fa-solid fa-layer-group"></i></div>
+                <h5 class="card-title">Komponen Modular</h5>
+                <p class="card-text text-secondary">Susun halaman dari komponen kecil yang mudah dipelihara.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100 feature-card shadow-sm">
+              <div class="card-body">
+                <div class="icon-wrap bg-success-subtle text-success mb-3"><i class="fa-solid fa-gauge-high"></i></div>
+                <h5 class="card-title">Performa Optimal</h5>
+                <p class="card-text text-secondary">Ringan, cepat, dan siap untuk produksi.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100 feature-card shadow-sm">
+              <div class="card-body">
+                <div class="icon-wrap bg-warning-subtle text-warning mb-3"><i class="fa-solid fa-shield"></i></div>
+                <h5 class="card-title">Standar Terbaru</h5>
+                <p class="card-text text-secondary">Menggunakan Bootstrap 5.3 dengan praktik terbaik.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100 feature-card shadow-sm">
+              <div class="card-body">
+                <div class="icon-wrap bg-danger-subtle text-danger mb-3"><i class="fa-solid fa-code"></i></div>
+                <h5 class="card-title">Siap Kustomisasi</h5>
+                <p class="card-text text-secondary">Struktur rapi dan mudah diubah sesuai kebutuhan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section-padding">
+      <div class="container">
+        <div class="row align-items-end mb-5">
+          <div class="col-lg-8">
+            <h2 class="h1 fw-bold">Contoh Karya</h2>
+            <p class="text-secondary">Grid portfolio responsif yang memanfaatkan card Bootstrap.</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 shadow-sm portfolio-card">
+              <img src="https://picsum.photos/600/400?random=1" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <h5 class="card-title">Project Satu</h5>
+                <p class="card-text text-secondary">Deskripsi singkat mengenai hasil pekerjaan.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 shadow-sm portfolio-card">
+              <img src="https://picsum.photos/600/400?random=2" class="card-img-top" alt="Project 2" />
+              <div class="card-body">
+                <h5 class="card-title">Project Dua</h5>
+                <p class="card-text text-secondary">Deskripsi singkat mengenai hasil pekerjaan.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 shadow-sm portfolio-card">
+              <img src="https://picsum.photos/600/400?random=3" class="card-img-top" alt="Project 3" />
+              <div class="card-body">
+                <h5 class="card-title">Project Tiga</h5>
+                <p class="card-text text-secondary">Deskripsi singkat mengenai hasil pekerjaan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-padding bg-body">
+      <div class="container">
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-6">
+            <h2 class="h1 fw-bold mb-3">Tentang Kami</h2>
+            <p class="text-secondary">Kami adalah tim kecil yang fokus membangun antarmuka web yang cepat, elegan, dan mudah dirawat. Template ini bisa menjadi fondasi kuat untuk proyek Anda berikutnya.</p>
+            <ul class="list-unstyled vstack gap-2 text-secondary">
+              <li><i class="fa-solid fa-check text-success me-2"></i>Kode bersih dan terstruktur</li>
+              <li><i class="fa-solid fa-check text-success me-2"></i>Praktik aksesibilitas dasar</li>
+              <li><i class="fa-solid fa-check text-success me-2"></i>Dukungan dark mode</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <div class="ratio ratio-16x9 rounded overflow-hidden shadow-sm">
+              <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-8">
+            <h2 class="h1 fw-bold">Hubungi Kami</h2>
+            <p class="text-secondary">Kirimkan pesan melalui formulir berikut. Validasi menggunakan utilitas dari Bootstrap.</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <form id="contactForm" class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Nama</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Nama lengkap" required />
+                  <div class="invalid-feedback">Mohon isi nama Anda.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="nama@domain.com" required />
+                  <div class="invalid-feedback">Email tidak valid.</div>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Pesan</label>
+                  <textarea class="form-control" id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                  <div class="invalid-feedback">Mohon tulis pesan Anda.</div>
+                </div>
+                <div class="col-12 d-grid d-sm-flex gap-2">
+                  <button class="btn btn-primary px-4" type="submit"><i class="fa-solid fa-paper-plane me-2"></i>Kirim</button>
+                  <button class="btn btn-outline-secondary" type="reset">Reset</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-5">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Informasi Kontak</h5>
+                <p class="text-secondary">Silakan hubungi kami melalui email di bawah ini atau lewat media sosial.</p>
+                <ul class="list-unstyled vstack gap-2">
+                  <li><i class="fa-solid fa-envelope text-primary me-2"></i>hello@example.com</li>
+                  <li><i class="fa-solid fa-phone text-primary me-2"></i>+62 812-3456-7890</li>
+                  <li class="d-flex gap-2 align-items-center mt-2">
+                    <a href="#" class="btn btn-sm btn-outline-primary"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="btn btn-sm btn-outline-primary"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="btn btn-sm btn-outline-primary"><i class="fa-brands fa-github"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-4 border-top bg-body-tertiary">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <span class="text-secondary">© <span id="year"></span> BrandSite. All rights reserved.</span>
+        <ul class="nav gap-2">
+          <li class="nav-item"><a href="#features" class="nav-link px-2">Fitur</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link px-2">Portfolio</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link px-2">Tentang</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link px-2">Kontak</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <button id="backToTop" class="btn btn-primary btn-lg back-to-top" aria-label="Kembali ke atas">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1080">
+      <div id="liveToast" class="toast align-items-center text-bg-success border-0" role="status" aria-live="polite" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body">
+            Pesan berhasil dikirim! Kami akan segera menghubungi Anda.
+          </div>
+          <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/workspace/assets/js/main.js"></script>
+  </body>
+</html>
